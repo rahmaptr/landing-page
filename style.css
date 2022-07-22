@@ -39,11 +39,19 @@ body {
     padding: 50px 150px;
 }
 
+.info {
+    display: flex;
+    text-align: center;
+    justify-content: space-between;
+}
+
 .quotes {
     background-color: #e5e7eb;
     color: #1f2937;
-    padding-left: 150px;
-    padding-right: 150px;
+    padding: 50px 150px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
 }
 
 .banner {
@@ -74,6 +82,7 @@ button {
 .card img {
     width: 200px;
     height: 200px;
+    border-radius: 5px;
 }
 
 .logo {
@@ -100,6 +109,11 @@ button {
     text-align: center;
 }
 
+.card p {
+    max-width: 200px;
+    margin-top: 0;
+}
+
 .quotes p {
     color: #1f2937;
     font-size: 36px;
@@ -109,4 +123,5 @@ button {
 
 .quotes h3 {
     color: #1f2937;
+    text-align: right;
 }
